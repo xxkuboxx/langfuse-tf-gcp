@@ -20,7 +20,10 @@
   ```
   terraform apply -target module.cloud_sql -target module.service_account  -target module.storage -target module.secret_manager
   ```
-
+## gcloud コマンドのプロジェクトセット
+  ```
+  gcloud config set project <your-project-id>
+  ```
 ## Cloud SQLのpassword設定
   ```
   gcloud sql users set-password postgres --host=% --instance=my-postgres-instance --prompt-for-password
