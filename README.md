@@ -3,6 +3,16 @@
 - gcloud CLIのインストール
 - Terraformのインストール
 
+## gcloudの認証
+- gcloudコマンド用
+  ```
+  gcloud auth login
+  ```
+- terraform用
+  ```
+  gcloud auth application-default login
+  ```
+
 ## Terraformの準備
 - locals.tfの書き換え
   ```
