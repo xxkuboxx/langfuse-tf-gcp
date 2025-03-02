@@ -12,6 +12,10 @@
   `<your-project-id>`を置換
 
 ## 事前に作成する必要のあるリソース作成
+- terraform init
+  ```
+  terraform init
+  ```
 - Cloud SQL, Service Account, Cloud Storage, シークレット変数
   ```
   terraform apply -target module.cloud_sql -target module.service_account  -target module.storage -target module.secret_manager
