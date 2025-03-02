@@ -1,0 +1,9 @@
+variable "project_id" {}
+variable "region" {}
+variable "network_name" {}
+variable "subnetwork_name" {}
+variable "cloud_run_service_account_email" {}
+variable "clickhouse_ip" {}
+variable "langfuse_bucket_name" {}
+variable "redis_auth" {}
+variable "redis_host" {}

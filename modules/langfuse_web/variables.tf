@@ -1,0 +1,16 @@
+variable "project_id" {}
+variable "region" {}
+variable "database_url_secret_id" {}
+variable "nextauth_secret_id" {}
+variable "salt_secret_id" {}
+variable "cloud_run_service_account_email" {}
+variable "network_name" {}
+variable "subnetwork_name" {}
+variable "connection_name" {}
+variable "clickhouse_ip" {}
+variable "langfuse_bucket_name" {}
+variable "redis_auth" {}
+variable "redis_host" {}
+variable "encryption_key_id" {}
+variable "hmac_id" {}
+variable "hmac_secret_id" {}
