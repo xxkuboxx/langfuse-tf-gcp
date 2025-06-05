@@ -1,3 +1,7 @@
+## ブログ
+
+https://zenn.dev/xxkuboxx/articles/90c9581cd9bdee
+
 ## 前提条件
 - Google CloudのProject作成
 - gcloud CLIのインストール
